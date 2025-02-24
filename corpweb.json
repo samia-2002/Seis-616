@@ -139,7 +139,7 @@
       "Properties" : {
 	      "KeyName": {"Ref": "KeyPairName"},
         "InstanceType": {"Ref": "InstanceType"},
-        "ImageId": "ami-07f463d9d4a6f005f",
+        "ImageId": "ami-0fc82f4dabc05670b",
         "SubnetId": { "Ref": "PublicSubnet1" },
         "SecurityGroupIds": [
           { "Ref": "WebserverSG"}
@@ -161,7 +161,7 @@
       "Properties" : {
 	      "KeyName": {"Ref": "KeyPairName"},
         "InstanceType": {"Ref": "InstanceType"},
-        "ImageId": "ami-07f463d9d4a6f005f",
+        "ImageId": "ami-0fc82f4dabc05670b",
         "SubnetId": { "Ref": "PublicSubnet2" },
         "SecurityGroupIds": [
           { "Ref": "WebserverSG"}
