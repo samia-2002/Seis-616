@@ -139,7 +139,7 @@
       "Properties" : {
 	      "KeyName": {"Ref": "KeyPairName"},
         "InstanceType": {"Ref": "InstanceType"},
-        "ImageId": "ami-0fc82f4dabc05670b",
+        "ImageId": "ami-01cc34ab2709337aa",
         "SubnetId": { "Ref": "PublicSubnet1" },
         "SecurityGroupIds": [
           { "Ref": "WebserverSG"}
